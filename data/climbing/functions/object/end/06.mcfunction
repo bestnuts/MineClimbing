@@ -1,0 +1,1 @@
+execute if score @s timestamp = !gametime V run scoreboard players add @s timestamp 1040

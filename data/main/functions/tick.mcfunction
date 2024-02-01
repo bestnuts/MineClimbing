@@ -35,7 +35,12 @@ execute as @a[scores={diedTick=0..}] at @s run function main:died/tick
 effect give @a saturation infinite 10 true
 effect give @a regeneration infinite 10 true
 
+function main:mode/main
+
 execute as @e[tag=flare.launcher,type=marker] at @s run function climbing:object/flare/tick
 execute as @e[tag=flare,type=marker] at @s run particle flash ~ ~ ~ 0 0 0 1 0 force
+
+execute as @e[tag=end.wait,tag=object,type=marker] at @s run function climbing:object/end/wait
+execute as @e[tag=end,tag=object,tag=main,type=marker] run function climbing:object/end/tick
 
 data remove storage climbing main

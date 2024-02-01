@@ -1,0 +1,2 @@
+tellraw @a ["",{"selector":"@s"},"님 ",{"score":{"name":"@s","objective":"gwr.m"}},"분 ",{"score":{"name":"@s","objective":"gwr.s"}},".",{"score":{"name":"@s","objective":"gwr.f"}},"초 으로 완주"]
+function main:mode/gwr/reset

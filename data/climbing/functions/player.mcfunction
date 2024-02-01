@@ -4,8 +4,8 @@ execute if entity @s[tag=!map,tag=!compass] run function climbing:ui/hide_bossba
 execute unless score @s User.cool_item = @s User.cool_item if predicate climbing:util/looking_at-interaction run function climbing:object/looking
 
 execute store result score #0 V run data get entity @s Pos[1]
-function climbing:util/ambient/main
-execute as @s[gamemode=!creative,gamemode=!spectator] unless score @s diedTick = @s diedTick run function climbing:survival
+execute as @s[tag=!end] run function climbing:util/ambient/main
+execute as @s[gamemode=!creative,gamemode=!spectator,tag=!end] unless score @s diedTick = @s diedTick run function climbing:survival
 
 execute if score @s User.cool_item matches 1.. run scoreboard players remove @s User.cool_item 1
 execute if score @s User.cool_item matches ..0 run scoreboard players reset @s User.cool_item

@@ -10,10 +10,12 @@ execute positioned -379.0 99. -13.0 rotated -90 0 run function summon:raider_bac
 execute positioned -378.5 98. -14.5 rotated -90 0 run function summon:map
 execute positioned -46.5 92. -287.5 rotated -60 0 run function summon:ice_pick
 execute positioned -371.55 95.25 -15.5 rotated -90 30 run function summon:ladder
+
 execute positioned -45. 260.25 -66. rotated 48 0 run function summon:sofhsid
 execute positioned -18.5 67.75 466.5 rotated -180 0 run function summon:royal
-
 execute positioned -485.5 81.75 52.8 rotated 0 0 run function summon:factory
+execute positioned -46.5 261.0 -66.5 run function summon:egg
+
 function climbing:util/raider/main
 
 execute positioned -71.5 42.2 347.5 rotated 0 0 run function summon:sleep_interaction
@@ -27,3 +29,6 @@ execute positioned -373.5 98.2 -10.5 rotated 0 0 run function summon:sleep_inter
 execute positioned 82.5 136.2 69.5 rotated 0 0 run function summon:sleep_interaction
 execute positioned 83.5 136.2 69.5 rotated 0 0 run function summon:sleep_interaction
 execute positioned 84.5 136.2 69.5 rotated 0 0 run function summon:sleep_interaction
+
+function summon:mode_selector
+function summon:flag

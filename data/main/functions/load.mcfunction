@@ -18,6 +18,7 @@ scoreboard objectives add bgmTick dummy
 scoreboard objectives add forestStack dummy
 
 scoreboard objectives add timestamp dummy
+scoreboard objectives add ending dummy
 
 scoreboard objectives add carrot_click used:carrot_on_a_stick
 scoreboard objectives add jump custom:jump
@@ -48,12 +49,18 @@ scoreboard objectives add User.health_tick dummy
 scoreboard objectives add Matched.id dummy
 scoreboard objectives add Entity.id dummy
 
+scoreboard objectives add gwr.t dummy
+scoreboard objectives add gwr.f dummy
+scoreboard objectives add gwr.s dummy
+scoreboard objectives add gwr.m dummy
+
 scoreboard objectives add trigger trigger
 
 execute unless score !wind GameHandler = !wind GameHandler run scoreboard players set !wind GameHandler 1
 execute unless score !overload GameHandler = !overload GameHandler run scoreboard players set !overload GameHandler 10
 execute unless score !raider GameHandler = !raider GameHandler run scoreboard players set !raider GameHandler 1
 execute unless score !raider.dir GameHandler = !raider.dir GameHandler run scoreboard players set !raider.dir GameHandler 0
+execute unless score !mode GameHandler = !mode GameHandler run scoreboard players set !mode GameHandler 1
 
 scoreboard players set #1000 C 1000
 scoreboard players set #512 C 512

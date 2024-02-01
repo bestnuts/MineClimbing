@@ -1,0 +1,1 @@
+execute positioned -12.5 317.0 -124.5 run summon interaction ~ ~ ~ {Tags:["mode","object","click","gwr"],height:1.2f,width:1.2f}

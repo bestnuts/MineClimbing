@@ -8,7 +8,7 @@ execute positioned -48.5 91.0 -285.5 run summon interaction ~ ~ ~ {Tags:["missio
 scoreboard players operation @e[tag=new] Matched.id = !id Entity.id
 execute store result score @e[tag=new] Entity.id run scoreboard players add !id Entity.id 1
 tag @e remove new
-summon marker 0 0 0 {Tags:["mission","disable","new"],data:{description:"보급품을 베이스 캠프로 운반 ",type:"area",sub:{pos1:[-74,41,347],pos2:[-69,45,351]}}}
+summon marker 0 0 0 {Tags:["mission","disable","new"],data:{description:"물품을 베이스 캠프로 운반 ",type:"area",sub:{pos1:[-74,41,347],pos2:[-69,45,351]},enable_run:'tellraw @a ["",{"text":"[시스템] ","color":"yellow"},{"text":"창고에서 곡괭이를 챙겨가시길 바랍니다."}]'}}
 scoreboard players operation @e[tag=new] Matched.id = !id Entity.id
 execute store result score @e[tag=new] Entity.id run scoreboard players add !id Entity.id 1
 tag @e remove new
