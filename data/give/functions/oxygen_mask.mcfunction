@@ -1,0 +1,1 @@
+give @s carved_pumpkin{data:{score:1},HideFlags:255,display:{Name:'{"text":"","color":"white","italic":false}',Lore:['{"text":"아이템 정보","color":"gray","italic":false,"bold":true}','{"text":"산소량이 줄어드는 속도가 2배 감소한다.","color":"gold","italic":false}']}}

@@ -1,0 +1,6 @@
+execute store result storage climbing main.value.a int 1 run data get entity @s data.sub.pos1[0]
+execute store result storage climbing main.value.b int 1 run data get entity @s data.sub.pos1[1]
+execute store result storage climbing main.value.c int 1 run data get entity @s data.sub.pos1[2]
+execute store result storage climbing main.value.d int 1 run data get entity @s data.sub.pos2[0]
+execute store result storage climbing main.value.e int 1 run data get entity @s data.sub.pos2[1]
+execute store result storage climbing main.value.f int 1 run data get entity @s data.sub.pos2[2]

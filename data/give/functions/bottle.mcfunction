@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{data:{item:1b,id:2,score:1,level:3},CustomModelData:5,HideFlags:255,display:{Name:'{"text":"","color":"white","italic":false}',Lore:['{"text":"아이템 정보","color":"gray","italic":false,"bold":true}','{"text":"평범한 물이다.","color":"gold","italic":false}']}}

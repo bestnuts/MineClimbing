@@ -1,0 +1,1 @@
+$function climbing:mission/type/$(type)

@@ -1,0 +1,5 @@
+$execute if score #type V matches 1 run data modify storage climbing main.ui.compass insert $(a) value ""
+$execute if score #type V matches 2 run data modify storage climbing main.ui.compass insert $(a) value ""
+$execute if score #type V matches 3 run data modify storage climbing main.ui.compass insert $(a) value ""
+$execute if score #type V matches 4 run data modify storage climbing main.ui.compass insert $(a) value ""
+$execute if score #type V matches 5 run data modify storage climbing main.ui.compass insert $(a) value ""

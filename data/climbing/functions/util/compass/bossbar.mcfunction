@@ -1,0 +1,1 @@
+$bossbar set tool:$(id) name [{"text":"","color":"#4e5c24"},{"nbt":"main.ui.compass","storage":"climbing","interpret":true}]

@@ -1,0 +1,2 @@
+execute positioned over world_surface if block ~ ~-1 ~ #climbing:ambient_forest run function climbing:util/ambient/forest/add
+execute store result score #true V run function climbing:util/ambient/forest/main

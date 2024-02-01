@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{data:{item:1b,id:1,score:1},CustomModelData:1,HideFlags:255,display:{Name:'{"text":"","color":"white","italic":false}',Lore:['{"text":"아이템 정보","color":"gray","italic":false,"bold":true}','{"text":"레이더 기지에서 받아온 좌표를 기반으로","color":"gold","italic":false}','{"text":"방향을 표시해준다.","color":"gold","italic":false}']}}

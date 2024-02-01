@@ -1,0 +1,1 @@
+function climbing:mission/setup_main

@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{data:{item:1b,id:3,score:1},CustomModelData:6,HideFlags:255,display:{Name:'{"text":"","color":"white","italic":false}',Lore:['{"text":"아이템 정보","color":"gray","italic":false,"bold":true}','{"text":"눈 블럭에 우클릭하여 로프를 고정한다.","color":"gold","italic":false}','{"text":"로프는 30칸까지 유지된다.","color":"gold","italic":false}']}}

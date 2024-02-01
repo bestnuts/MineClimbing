@@ -1,0 +1,2 @@
+function fix:init_object
+function fix:place_object

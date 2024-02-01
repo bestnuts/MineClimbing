@@ -1,0 +1,1 @@
+$damage @s $(a) custom_fall

@@ -1,0 +1,1 @@
+$data modify storage climbing main.ui.temp.03 set value '{"text":"\\uE00$(03)"}'

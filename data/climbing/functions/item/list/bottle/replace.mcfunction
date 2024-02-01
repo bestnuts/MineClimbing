@@ -1,0 +1,1 @@
+$item replace entity @s weapon.mainhand with carrot_on_a_stick{data:{item:1b,id:2,score:1,level:$(a)},CustomModelData:$(b),HideFlags:255,display:$(c)}

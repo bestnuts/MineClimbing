@@ -1,0 +1,1 @@
+$bossbar set tool:$(id) name ""

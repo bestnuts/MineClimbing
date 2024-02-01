@@ -1,0 +1,1 @@
+give @s written_book{title:"",author:"베스트견과류",pages:['{"text":"d"}'],display:{Name:'{"text":"","color":"white","italic":false}',Lore:['{"text":"아이템 정보","color":"gray","italic":false,"bold":true}','{"text":"임무에 대한 도움말이 있다.","color":"gold","italic":false}']}}

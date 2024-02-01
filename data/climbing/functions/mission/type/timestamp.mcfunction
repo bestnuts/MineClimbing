@@ -1,0 +1,1 @@
+execute if score @s timestamp <= !gametime V run function climbing:mission/timestamp_match

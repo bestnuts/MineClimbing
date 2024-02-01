@@ -1,0 +1,2 @@
+execute unless score !wind GameHandler matches 1 run tellraw @a ["",{"text":"[안내] ","color":"red"},{"text":"현재 설산 지역의 날씨가 호전되고 있습니다.","hoverEvent":{"action":"show_text","value":[{"text":"날씨가 호전되어 햇살이 비치고 있습니다.\n다만, 여전히 산악 지대이므로 갑작스러운 기후 변화에\n대비하고, 안전을 위해 주변 환경을 주의 깊게 확인하시길 바랍니다."}]}}]
+scoreboard players set !wind GameHandler 1
