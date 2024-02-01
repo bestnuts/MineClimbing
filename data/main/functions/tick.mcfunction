@@ -4,6 +4,8 @@ execute store result score !daytime V run time query daytime
 execute if predicate climbing:weather/clear run function climbing:util/weather/normal_wind
 execute unless predicate climbing:weather/clear run function climbing:util/weather/heavy_wind
 
+execute as @e[tag=object,tag=heli,type=marker] at @s run function climbing:object/heli/main
+
 execute as @e[tag=click,type=interaction] at @s run function climbing:object/interaction
 execute as @e[tag=avalanche,type=marker] at @s run function climbing:object/avalanche/tick
 execute as @e[tag=rope,type=block_display] at @s run function climbing:object/rope/main

@@ -1,0 +1,2 @@
+execute facing entity @e[tag=heli.destination] feet positioned ^ ^ ^2 rotated as @s positioned ^ ^ ^6 facing entity @s feet facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^.5 ~ ~
+scoreboard players set #true V 1
