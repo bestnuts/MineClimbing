@@ -43,4 +43,7 @@ execute as @e[tag=flare,type=marker] at @s run particle flash ~ ~ ~ 0 0 0 1 0 fo
 execute as @e[tag=end.wait,tag=object,type=marker] at @s run function climbing:object/end/wait
 execute as @e[tag=end,tag=object,tag=main,type=marker] run function climbing:object/end/tick
 
+bossbar set mission:1 players @a
+bossbar set mission:2 players @a
+
 data remove storage climbing main
